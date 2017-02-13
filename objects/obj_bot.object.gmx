@@ -67,8 +67,6 @@ if place_meeting(x, y, obj_turn_right) {
 if place_meeting(x, y, obj_turn_left) {
     state = 3;
 }
-spam
-
 
 //State Machine
 //Starting the race
@@ -110,7 +108,6 @@ if state = 5 {
     original_direction = image_angle;
     state = 0;
 }
-
 </string>
           </argument>
         </arguments>
