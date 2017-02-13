@@ -15,6 +15,7 @@
     <sprite>sprites\spr_turn_left</sprite>
     <sprite>sprites\spr_tunr_right</sprite>
     <sprite>sprites\spr_f_sprite</sprite>
+    <sprite>sprites\spr_decelerate</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -28,6 +29,7 @@
     <object>objects\obj_turn_left</object>
     <object>objects\obj_turn_right</object>
     <object>objects\obj_f_sprite</object>
+    <object>objects\obj_decelerate</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_race0</room>

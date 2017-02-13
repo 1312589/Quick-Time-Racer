@@ -75,13 +75,13 @@
     <instance objName="obj_c_track" x="128" y="1831" name="inst_D983E1C5" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
     <instance objName="obj_s_actrack" x="128" y="1472" name="inst_36AECE75" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_turn_right" x="128" y="1831" name="inst_8268FE1B" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="128" y="992" name="inst_D15FB143" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_accelerate" x="128" y="512" name="inst_1863C4E3" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="128" y="512" name="inst_ADDBEB4C" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_accelerate" x="848" y="394" name="inst_B892BEAF" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="848" y="511" name="inst_B9CD684B" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_accelerate" x="128" y="704" name="inst_B892BEAF" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_s_actrack" x="1216" y="384" name="inst_B9CD684B" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_accelerate" x="1091" y="871" name="inst_DBED9D22" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="90"/>
     <instance objName="obj_s_actrack" x="1208" y="871" name="inst_34C3842C" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
+    <instance objName="obj_decelerate" x="128" y="402" name="inst_80EB6F91" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_accelerate" x="128" y="1088" name="inst_6013B87F" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_accelerate" x="832" y="544" name="inst_54343791" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

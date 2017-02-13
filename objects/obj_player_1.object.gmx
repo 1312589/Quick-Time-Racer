@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Writing initial variables
 car_speed = 5.50;
+aim_speed = 5.50;
 state = 0.5;
 original_direction = image_angle;
 turn_speed = 1.5;
@@ -76,7 +77,10 @@ if state = 0.5 {
     motion_set((image_angle + 90), car_speed)
     state = 0
 }
-
+ //Normal
+ if state = 0 {
+    motion_set(image_angle + 90, car_speed);
+}
 //Turning right
 if state = 2 {
     if (original_direction = image_angle + 90) {
@@ -135,7 +139,17 @@ if state = 5 {
 //Accelerate
 if (position_meeting(x, y, obj_accelerate)) {
     if (keyboard_check_pressed(vk_space)) {
-        car_speed = car_speed + 0.02;
+        car_speed = car_speed + 0.05;
+    }
+}
+
+//Decelerate
+if (position_meeting(x, y, obj_decelerate)) {
+    if aim_speed = car_speed {
+        
+    }
+    else {
+        car_speed = car_speed - (car_speed - aim_speed);
     }
 }
 </string>
