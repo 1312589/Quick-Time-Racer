@@ -32,6 +32,8 @@ state = 0.5;
 original_direction = image_angle;
 turn_speed = 1.5;
 compass = image_angle;
+laps = 0;
+finish_touching = 0;
 </string>
           </argument>
         </arguments>
@@ -151,6 +153,25 @@ if (position_meeting(x, y, obj_decelerate)) {
     else {
         car_speed = car_speed - (car_speed - aim_speed);
     }
+}
+
+//Laps
+if (finish_touching = 0) {
+    if (place_meeting(x, y, obj_f_line)) {
+        finish_touching = 1;
+        laps = laps + 1;
+    }
+}
+else {
+    if (place_meeting(x, y, obj_f_line)) {
+    }
+    else {
+        finish_touching = 0;
+    }
+}
+
+if (laps = 6) {
+    game_end();
 }
 </string>
           </argument>

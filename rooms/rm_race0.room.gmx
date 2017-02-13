@@ -79,7 +79,8 @@
     <instance objName="obj_s_actrack" x="1208" y="871" name="inst_34C3842C" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
     <instance objName="obj_decelerate" x="128" y="305" name="inst_80EB6F91" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_s_actrack" x="128" y="751" name="inst_D1332246" locked="0" code="" scaleX="10" scaleY="20" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="128" y="1471" name="inst_7C9701AB" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_f_line" x="128" y="1568" name="inst_CE39C06E" locked="0" code="" scaleX="10" scaleY="24" colour="4294967295" rotation="90"/>
+    <instance objName="obj_s_actrack" x="128" y="1471" name="inst_2C5F6A4A" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -28,7 +28,6 @@
     <object>objects\obj_accelerate</object>
     <object>objects\obj_turn_left</object>
     <object>objects\obj_turn_right</object>
-    <object>objects\obj_f_sprite</object>
     <object>objects\obj_decelerate</object>
   </objects>
   <rooms name="rooms">
