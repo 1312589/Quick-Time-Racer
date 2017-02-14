@@ -34,6 +34,7 @@ turn_speed = 1.5;
 compass = image_angle;
 laps = 0;
 finish_touching = 0;
+race = 0; 
 </string>
           </argument>
         </arguments>
@@ -139,9 +140,11 @@ if state = 5 {
             <kind>1</kind>
             <string>///Quick-time events
 //Accelerate
-if (position_meeting(x, y, obj_accelerate)) {
-    if (keyboard_check_pressed(vk_space)) {
-        car_speed = car_speed + 0.05;
+if (race = 0){
+    if (position_meeting(x, y, obj_accelerate)) {
+        if (keyboard_check_pressed(vk_space)) {
+            car_speed = car_speed + 0.05;
+        }
     }
 }
 
@@ -171,6 +174,7 @@ else {
 }
 
 if (laps = 2) {
+    race = 1;
     if (car_speed = 0) {
     }
     else {
