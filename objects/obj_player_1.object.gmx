@@ -170,8 +170,12 @@ else {
     }
 }
 
-if (laps = 6) {
-    game_end();
+if (laps = 2) {
+    if (car_speed = 0) {
+    }
+    else {
+        car_speed = car_speed - (aim_speed/200);
+    }
 }
 </string>
           </argument>
