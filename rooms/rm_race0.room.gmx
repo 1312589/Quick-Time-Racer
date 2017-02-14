@@ -53,7 +53,6 @@
   <instances>
     <instance objName="obj_player_1" x="160" y="1664" name="inst_213DEA05" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_bot" x="96" y="1673" name="inst_04D4E70D" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="488" y="152" name="inst_E220ECF2" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
     <instance objName="obj_c_track" x="128" y="152" name="inst_EE86BD95" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_turn_right" x="128" y="160" name="inst_FAC420C1" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_c_track" x="848" y="152" name="inst_3DF3A70E" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="270"/>
@@ -62,25 +61,33 @@
     <instance objName="obj_turn_left" x="848" y="871" name="inst_9CA18368" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_c_track" x="1568" y="871" name="inst_8E63A15D" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="270"/>
     <instance objName="obj_c_track" x="1568" y="1351" name="inst_4D53A038" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="180"/>
-    <instance objName="obj_s_actrack" x="1568" y="1111" name="inst_0C9BFA32" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="1208" y="1351" name="inst_563D305D" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
     <instance objName="obj_turn_right" x="1568" y="864" name="inst_D6BDF978" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_turn_right" x="1568" y="1351" name="inst_EF6CDAC2" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_c_track" x="848" y="1831" name="inst_E2B99A70" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="180"/>
     <instance objName="obj_c_track" x="848" y="1351" name="inst_3C1656EB" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_turn_left" x="848" y="1351" name="inst_6A87DE57" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="848" y="1591" name="inst_3FE6ED21" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="488" y="1831" name="inst_7D25E41A" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
     <instance objName="obj_turn_right" x="848" y="1831" name="inst_67155E78" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_c_track" x="128" y="1831" name="inst_D983E1C5" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
     <instance objName="obj_turn_right" x="128" y="1831" name="inst_8268FE1B" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_accelerate" x="128" y="810" name="inst_B892BEAF" locked="0" code="" scaleX="10" scaleY="20" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="848" y="512" name="inst_B9CD684B" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_s_actrack" x="1208" y="871" name="inst_34C3842C" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
-    <instance objName="obj_decelerate" x="128" y="305" name="inst_80EB6F91" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_accelerate" x="128" y="834" name="inst_B892BEAF" locked="0" code="" scaleX="10" scaleY="20" colour="4294967295" rotation="0"/>
+    <instance objName="obj_decelerate" x="128" y="317" name="inst_80EB6F91" locked="0" code="" scaleX="10" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_s_actrack" x="128" y="751" name="inst_D1332246" locked="0" code="" scaleX="10" scaleY="20" colour="4294967295" rotation="0"/>
     <instance objName="obj_f_line" x="128" y="1568" name="inst_CE39C06E" locked="0" code="" scaleX="10" scaleY="24" colour="4294967295" rotation="90"/>
     <instance objName="obj_s_actrack" x="128" y="1471" name="inst_2C5F6A4A" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_decelerate" x="285" y="1831" name="inst_2668AA15" locked="0" code="" scaleX="10" scaleY="1.5" colour="4294967295" rotation="90"/>
+    <instance objName="obj_decelerate" x="849" y="714" name="inst_8497C89E" locked="0" code="" scaleX="10" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_decelerate" x="691" y="152" name="inst_571A9BE7" locked="0" code="" scaleX="10" scaleY="1.5" colour="4294967295" rotation="90"/>
+    <instance objName="obj_decelerate" x="1005" y="1351" name="inst_3E8D2AF1" locked="0" code="" scaleX="10" scaleY="1.5" colour="4294967295" rotation="90"/>
+    <instance objName="obj_decelerate" x="848" y="1674" name="inst_2593B4EF" locked="0" code="" scaleX="10" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_decelerate" x="1568" y="1194" name="inst_37D2CE4D" locked="0" code="" scaleX="10" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_decelerate" x="1411" y="864" name="inst_97667191" locked="0" code="" scaleX="10" scaleY="1.5" colour="4294967295" rotation="90"/>
+    <instance objName="obj_s_actrack" x="1208" y="1351" name="inst_10B97CD0" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
+    <instance objName="obj_s_actrack" x="848" y="1591" name="inst_A53F71EE" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_s_actrack" x="488" y="1831" name="inst_687E09E6" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
+    <instance objName="obj_s_actrack" x="1208" y="871" name="inst_BEC38F29" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
+    <instance objName="obj_s_actrack" x="848" y="512" name="inst_D2B93D4A" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_s_actrack" x="1568" y="1111" name="inst_B9B32495" locked="0" code="" scaleX="10" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_s_actrack" x="488" y="155" name="inst_86945CBC" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="90"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
