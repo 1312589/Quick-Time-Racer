@@ -186,9 +186,10 @@ else {
     }
 }
 
-if (laps = 6) {
+if (laps = 2) {
     race = 1;
-    if (car_speed = 0) {
+    if (car_speed - (aim_speed/200) = 0) {
+        car_speed = 0;
     }
     else {
         car_speed = car_speed - (aim_speed/200);
