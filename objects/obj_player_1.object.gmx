@@ -187,13 +187,11 @@ else {
     }
 }
 
+//Ending the race
 if (laps = 2) {
-    race = 1;
-    if (car_speed - (aim_speed/200) = 0) {
-        car_speed = 0;
-    }
-    else {
-        car_speed = car_speed - (aim_speed/200);
+    while (car_speed &gt; 0.1) {
+        car_speed = car_speed - 0.01
+        motion_set(original_direction, car_speed)
     }
 }
 </string>

@@ -994,6 +994,7 @@
     <instance objName="obj_crash" x="272" y="336" name="inst_763CC9EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_crash" x="272" y="320" name="inst_8E085CC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_crash" x="272" y="304" name="inst_971AEFE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_c_track" x="128" y="151" name="inst_F7BCE26E" locked="0" code="" scaleX="10" scaleY="10" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
